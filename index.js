@@ -44,6 +44,7 @@ function mainTask() {
       mainTask();
     });
 }
+mainTask()
 function crontab() {
   schedule.scheduleJob(`00 00 11 * * *`, mainTask);
 }

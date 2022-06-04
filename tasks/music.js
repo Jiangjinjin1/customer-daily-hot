@@ -1,7 +1,7 @@
 const { Task } = require("../tools");
 const options = {
-  pageUrl: "https://y.qq.com/portal/playlist.html#t3=1&t2=5&t1=141&",
-  pageSelector: ".songlist__list .songlist__item .js_song",
+  pageUrl: "https://y.qq.com/",
+  pageSelector: ".songlist__list .songlist__item .songlist__songname_txt a",
   title: "今日Music"
 };
 module.exports = {

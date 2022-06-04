@@ -1,7 +1,7 @@
 const { Task } = require("../tools");
 const options = {
   pageUrl: "https://nba.hupu.com",
-  pageSelector: ".nba-news-list a",
+  pageSelector: ".list-container .list-item a",
   title: "今日NBA"
 };
 module.exports = {
